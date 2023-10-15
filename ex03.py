@@ -13,9 +13,9 @@ def ler_numero_positivo():
         except ValueError:
             print("Entrada inválida. Por favor, digite um número válido.")
 
-Q = [0] * 5
+Q = [0] * 20
 
-for i in range(5):
+for i in range(20):
     Q[i] = ler_numero_positivo()
 print (Q)
 
