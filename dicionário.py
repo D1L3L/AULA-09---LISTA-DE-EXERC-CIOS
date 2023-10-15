@@ -6,6 +6,7 @@ filmes = {
 }
 
 for indice in filmes:
+
     print (f"Filme: {filmes[indice][0]}")
     print (f"Gênero: {filmes[indice][1]}")
     print (f"Ano: {filmes[indice][2]}")
