@@ -4,7 +4,7 @@
 def ler_numero():
     while True:
         try:
-            numero = int(input("Digite um número: "))
+            numero = int(input("Digite um vetor para a matriz: "))
             if numero >= 0:
                 return numero
             elif numero < 0:
@@ -19,8 +19,8 @@ multiplicador = int(input("\nDigite um número para multiplicar a matriz: "))
 
 for vetor in range (n):
     matriz_a[vetor] = ler_numero()
-print(matriz_a)
+print(f"A matriz digitada contém {n} vetores, {matriz_a}:")
 
 for mult in range (n):
     matriz_m[mult] = ((matriz_a[mult]) * multiplicador)
-print(matriz_m)
+print(f"Após a multiplicação do número {multiplicador} x {matriz_a} = {matriz_m} ")
